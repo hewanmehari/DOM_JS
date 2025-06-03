@@ -37,11 +37,14 @@ body{
     font-size: 55px;
     h1{
       text-align: center;
-      margin-top: 5%;
+      padding-top: 5%;
     }
     p{
       text-align: center;
       margin-top: 7%;
+      font-size: 40px;
+      color: rgb(132, 233, 132);
+
     }
  
   
@@ -64,4 +67,3 @@ li{
 #click-button{
   margin-left: 45%;
 }
-

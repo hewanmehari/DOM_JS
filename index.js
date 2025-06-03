@@ -70,7 +70,7 @@ const img = document.createElement('img');
 
 
 const button=document.getElementById('click-button')
-button.style.padding='15px 15px 15px 15px'
+button.style.padding='10px 10px 10px 10px'
 button.style.background='none'
 button.style.border = 'none'
 button.style.backgroundColor = 'green'
@@ -79,13 +79,12 @@ button.style.color = 'white'
 button.style.fontSize = "20px"
 button.style.cursor = 'pointer'
 button.style.marginTop = "40px"
-button.style.width = '300px'
-button.style.height = '100px'
+button.style.width = '250px'
+button.style.height = '70px'
+button.style.marginBottom = "40px"
 button.addEventListener('click',()=>{
     button.style.backgroundColor='blue'
     button.textContent='Ordered'})
     button.onclick=()=>{           
     heading.textContent= 'Congrats'
     }
-
-
