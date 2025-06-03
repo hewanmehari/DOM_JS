@@ -1,0 +1,67 @@
+body{
+  margin: auto;
+}
+.veg-image {
+  display: block;
+  width: 350px;
+  height: 450px;
+  margin-top: 5px;
+  gap: 5%;
+  border-radius: 15px;
+
+
+  
+}
+#nav{
+  gap: 7%;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 30%;
+  
+}
+.fruit-image {
+   display: block;
+  width: 350px;
+  height: 450px;
+  margin-top: 5px;
+  border-radius: 15px;
+  
+
+}
+
+.title{
+  background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(88, 82, 82, 0.5)),url(kiosk.jpeg);
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    font-size: 55px;
+    h1{
+      text-align: center;
+      margin-top: 5%;
+    }
+    p{
+      text-align: center;
+      margin-top: 7%;
+    }
+ 
+  
+}
+p{
+  font-size: 33px;
+
+}
+
+h3{
+  font-size: 28px;
+  margin-top: 7%;
+  text-align: center;
+}
+li{
+  font-size: 25px;
+  list-style: none;
+
+}
+#click-button{
+  margin-left: 45%;
+}
+
