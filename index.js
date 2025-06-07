@@ -20,10 +20,10 @@ fruitList.style.justifyContent = "space-between";
 fruitList.appendChild(newFruit);
 
 const  fruitImages = {
-  "Mangoes": "mango.jpg",
-  "Bananas": "banana.jpg",
-  "Water Melons": "water melons.jpg",
-  "Pineapples": "pineapple.jpg"
+  "Mangoes": "Images/mango.jpg",
+  "Bananas": "Images/banana.jpg",
+  "Water Melons": "Images/water melons.jpg",
+  "Pineapples": "Images/pineapple.jpg"
 
 }
 
@@ -36,10 +36,10 @@ vegList.style.justifyContent = "space-between"
 vegList.appendChild(newVeg);
 
 const vegImages = {
-  "Onions": "onions.jpg",
-  "Tomatoes": "tomatoes.jpg",
-  "Kales": "kales.jpg",
-  "Spinach": "spinach.jpg"
+  "Onions": "Images/onions.jpg",
+  "Tomatoes": "Images/tomatoes.jpg",
+  "Kales": "Images/kales.jpg",
+  "Spinach": "Images/spinach.jpg"
 };
 
 document.querySelectorAll("#vegList li").forEach(li => {
